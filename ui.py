@@ -5,6 +5,8 @@ from utils import clear_chat_history, get_response
 from config import dict_welcome_message
 
 def main():
+    st.set_page_config(page_title="🤖 RAG Chatbot", page_icon="🤖")
+    st.title("🤖 RAG Chatbot")
     create_sidebar()
     tab1, tab2 = st.tabs(["📤 Create New Vectorstore", "📂 Load Existing Vectorstore"])
     with tab1:

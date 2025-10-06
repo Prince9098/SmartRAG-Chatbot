@@ -3,7 +3,7 @@ from config import list_LLM_providers, dict_welcome_message
 
 def create_sidebar():
     with st.sidebar:
-        st.caption("🚀 A RAG chatbot powered by 🔗 Langchain with Vectorstore Retriever Only")
+        st.caption("🚀 A RAG chatbot powered by 🔗 Langchain")
         st.write("")
         llm_chooser = st.radio(
             "Select LLM Provider",
@@ -49,4 +49,6 @@ def create_sidebar():
             list(dict_welcome_message.keys())
         )
         st.divider()
-        st.info("ℹ️ This app uses **Vectorstore Retriever ONLY** for document retrieval.")
+        st.info(
+            "This RAG chatbot showcases advanced retrieval-augmented generation using Langchain and multiple LLMs. It features modular design, real-time model switching, and secure API integration."
+        )
