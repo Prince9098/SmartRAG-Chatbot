@@ -1,15 +1,15 @@
-# SmartRAG-Chatbot
+# 🤖 SmartRAG-Chatbot
 
-## Overview
+## 📝 Overview
 
 SmartRAG-Chatbot is a cutting-edge Retrieval-Augmented Generation (RAG) chatbot designed to provide precise, context-aware answers by leveraging document embeddings and vector search. Built using [LangChain](https://langchain.com/) and [Streamlit](https://streamlit.io/), it seamlessly integrates with various large language models (LLMs) to enable intelligent conversations based on your own documents, research papers, and knowledge bases.
 
 This project is ideal for:
-- Academic research and literature review
-- Enterprise knowledge management
-- Educational platforms and e-learning
-- Technical support and documentation Q&A
-- Personal productivity and information retrieval
+-  Academic research and literature review
+-  Enterprise knowledge management
+-  Educational platforms and e-learning
+-  Technical support and documentation Q&A
+-  Personal productivity and information retrieval
 
 SmartRAG-Chatbot empowers users to interact with their data in natural language, making information retrieval intuitive and efficient.
 
@@ -28,7 +28,7 @@ SmartRAG-Chatbot empowers users to interact with their data in natural language,
 
 Whether you're a researcher, educator, developer, or enterprise user, SmartRAG-Chatbot helps you unlock the full potential of your data through intelligent, conversational AI.
 
-## Installation
+## ⚡ Installation
 
 1. **Clone the repository:**
     ```bash
@@ -47,7 +47,7 @@ Whether you're a researcher, educator, developer, or enterprise user, SmartRAG-C
     pip install -r requirements.txt
     ```
 
-## Usage
+## 🚀 Usage
 
 1. **Prepare your data:**
     - Place your documents (PDFs, text files, etc.) in the designated `data/` folder.
@@ -61,11 +61,11 @@ Whether you're a researcher, educator, developer, or enterprise user, SmartRAG-C
     - Open the provided local URL in your browser.
     - Start chatting and ask questions based on your uploaded documents.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
 
-## Contributors
+## 👥 Contributors
 
 - **Prince Patel**  
     
