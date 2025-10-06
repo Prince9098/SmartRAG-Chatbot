@@ -13,7 +13,7 @@ This project is ideal for:
 
 SmartRAG-Chatbot empowers users to interact with their data in natural language, making information retrieval intuitive and efficient.
 
-## Features
+## ✨ Features
 
 - **Retrieval-Augmented Generation (RAG):** Combines LLMs with document search for accurate, context-rich responses.
 - **Document Embedding & Vector Search:** Efficiently indexes and searches custom documents using state-of-the-art embedding models.
